@@ -26,7 +26,7 @@ app.use(cookieSession({
 
 ///////////// Helper Functions ///////////////
 const { generateRandomString, emailExists, findPassword, findUserID, urlsForUser, getUserByEmail } = require("./helper");
-////////////// Helper Functions End //////////////
+///////////// Helper Functions End //////////
 
 const urlDatabase = {
   "b2xVn2": { longURL:"http://www.lighthouselabs.ca", userID:"aJ48lW"},
